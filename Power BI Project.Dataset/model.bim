@@ -434,6 +434,21 @@
             "lineageTag": "5801fd87-10e1-4808-bd29-e29f5b08c463",
             "sourceColumn": "Q13 - Ethnicity.1",
             "summarizeBy": "none"
+          },
+          {
+            "name": "Updated Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "IF('Data Professional Survey'[Q10 - Current Age]>=40, \"Middle age\",\"Adolescence\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "9d029138-f048-4fbc-a08b-5df0773749ea",
+            "summarizeBy": "none",
+            "type": "calculated"
           }
         ],
         "lineageTag": "54ea42c6-5b4c-415b-98c2-20d26a4dd88e",
